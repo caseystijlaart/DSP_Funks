@@ -1,0 +1,28 @@
+{
+  "slug": "DSP_FUNKS",
+  "name": "DSP_FUNKS",
+  "version": "2.1.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "DSP_FUNKS",
+  "author": "Stijlaart, C",
+  "authorEmail": "casey.stijlaart@hotmail.com",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/caseystijlaart/DSP_Funks",
+  "donateUrl": "https://www.paypal.me/caseystijlaart",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Pass",
+      "name": "Pass",
+      "description": "Basic Plugin to test passing through audio signals.",
+      "tags": [
+        "pass",
+        "via",
+        "sum",
+        "avg"
+      ]
+    }
+  ]
+}
