@@ -18,10 +18,17 @@
       "name": "Pass",
       "description": "Basic Plugin to test passing through audio signals.",
       "tags": [
-        "pass",
-        "via",
-        "sum",
-        "avg"
+        "Filter",
+        "Random",
+        "Utility"
+      ]
+    },
+    {
+      "slug": "Filter",
+      "name": "Filter",
+      "description": "Applies various filters to the input, with each filter having their own output line.",
+      "tags": [
+        "Filter"
       ]
     }
   ]

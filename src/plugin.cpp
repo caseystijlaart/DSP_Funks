@@ -7,4 +7,5 @@ void init(Plugin* p) {
 
   // Add modules here
   p->addModel(modelPass);
+  p->addModel(modelFilter);
 }

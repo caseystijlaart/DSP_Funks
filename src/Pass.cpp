@@ -134,6 +134,7 @@ struct Pass : Module {
   }
 
   void sendOutput() {
+    if (voltages.empty()) return;
     outputs[OUT_1_OUTPUT].setChannels(1);
     outputs[OUT_1_OUTPUT].writeVoltages(voltages.data());
   }
@@ -153,7 +154,7 @@ struct PassWidget : ModuleWidget {
     setPanel(createPanel(asset::plugin(pluginInstance, "res/Pass.svg")));
 
     addChild(createWidget<ScrewSilver>(Vec(15, 0)));
-    addChild(createWidget<ScrewSilver>(Vec(15, 375)));
+    addChild(createWidget<ScrewSilver>(Vec(15, 363)));
 
     addParam(createParamCentered<VCVButton>(Vec(17, 52.5), module,
                                             Pass::POWER_PARAM));

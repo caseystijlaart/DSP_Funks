@@ -21,3 +21,4 @@ static const float HALF_LIGHT_LARGE = mm2px(5.0) * 0.5f;
 
 // Declare each Model, defined in each module source file
 extern Model* modelPass;
+extern Model* modelFilter;
